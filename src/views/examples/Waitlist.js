@@ -1,6 +1,7 @@
 import React from "react";
 import {Helmet} from "react-helmet";
 import classnames from "classnames";
+import SimpleFooter from "components/Footers/SimpleFooter.js"
 
 import {
     Container,
@@ -163,6 +164,7 @@ class Waitlist extends React.Component {
                     </Row>
                 </div>
             </Container>
+            <SimpleFooter/>
             </>
         )
     }
