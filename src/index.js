@@ -29,6 +29,7 @@ import Login from "views/examples/Login.js";
 import Profile from "views/examples/Profile.js";
 import Register from "views/examples/Register.js";
 import Waitlist from "views/examples/Waitlist.js";
+import LandingPage from "views/examples/LandingPage.js";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -54,6 +55,11 @@ ReactDOM.render(
         path="/waitlist"
         exact
         render={props => <Waitlist {...props} />}
+      />
+        <Route
+        path="/landing"
+        exact
+        render={props => <LandingPage {...props} />}
       />
       <Redirect to="/" />
     </Switch>
