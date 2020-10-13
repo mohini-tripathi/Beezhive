@@ -164,7 +164,12 @@ class Waitlist extends React.Component {
                     </Row>
                 </div>
             </Container>
-            <SimpleFooter/>
+            <Row className="p-0 mt-0">
+                <img
+                      alt="..."
+                      className=" img-fluid"
+                      src={require("assets/img/icons/common/Footer@2x.png")}/>
+                </Row>
             </>
         )
     }
